@@ -1,0 +1,47 @@
+:root{
+    --color1: #007FFF;
+    --color2: #ffffff;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "roboto", sans-serif;
+}
+
+header{
+    background-color: var(--color1);
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+    padding: 10px;
+}
+nav{
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+li{
+    align-items: center;
+}
+
+a{
+    align-items: center;
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.container-slider{
+    background: linear-gradient(rgba(0, 127, 255, .8), rgba(0, 127, 255, .8)), url("./img/background.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
