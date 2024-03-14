@@ -1,6 +1,8 @@
 :root{
     --color1: #007FFF;
     --color2: #ffffff;
+    --color3: #008fff;
+    --color4: #3c96db;
 }
 
 *{
@@ -22,12 +24,12 @@ font-family: "roboto", sans-serif;
 .container-entrar{
  background-color: var(--color2);
  width: 500px;
- height: 500px;
+ height: 700px;
  display: flex;
  flex-direction: column;
  border-radius: 50px;
  justify-content: center;
- padding: 20px;
+ padding: 10px;
  margin: auto;
  align-items: center;
  
@@ -36,7 +38,21 @@ font-family: "roboto", sans-serif;
 h1{
 width: 80%;
 font-size: 50px;
+text-align: center;
 }
+
+.logo{
+    width: 200px;
+    transition: transform 1s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+
 
 button{
     width: 400px;
@@ -47,6 +63,15 @@ button{
     border: none;
     cursor: pointer;
     font-size: 30px;
+    margin: 50px 0;
+}
+
+button:hover{
+    background-color: var(--color3);
+}
+
+button:active{
+    background-color: var(--color4);
 }
 
 .social{
@@ -67,4 +92,12 @@ h2{
     font-size: 50px;
     color: var(--color1);
     margin-top: 15px;
+}
+
+.fab:hover{
+    color: var(--color3);
+}
+
+.fab:active{
+   color: var(--color4);
 }

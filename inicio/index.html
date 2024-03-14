@@ -13,44 +13,92 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <title>Comissão de Festas Bicolor</title>
+
 <body>
     <header>
         <nav>
             <ul>
                 <li> <a href="#">Início</a></li>
-                <li> <a href="#">Sobre</a></li>
-                <li> <a href="#">Projetos</a></li>
+                <li> <a href="../sobre/">Sobre</a></li>
+                <li> <a href="../projetos/">Projetos</a></li>
                 <li> <a href="#">Contato</a></li>
-                
+
             </ul>
         </nav>
     </header>
-    <main class="container"> 
+    <main class="container">
         <section class="slider">
             <div class="seta arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
-              <img src="../img/1.jpeg" alt="slide-1.jpg">
-              <img src="../img/2.png" alt="slide-2.jpg">
-              <img src="../img/3.png" alt="slide-3.jpg">
-              <img src="../img/4.png" alt="slide-4.jpg">
+            <img src="../img/1.png" alt="slide-1.jpg">
+            <img src="../img/2.png" alt="slide-2.jpg">
+            <img src="../img/3.png" alt="slide-3.jpg">
+            <img src="../img/4.png" alt="slide-4.jpg">
+            <img src="../img/5.png" alt="slide-5.jpg">
             <div class="seta arrow-right"><i class="fas fa-chevron-circle-right"></i></div>
             <div class="paginacao">
-          
-              <div class="botao"> <i class="far fa-circle"></i> </div>
-              <div class="botao"> <i class="far fa-circle"></i> </div>
-              <div class="botao"> <i class="far fa-circle"></i> </div>
-              <div class="botao"> <i class="far fa-circle"></i> </div>
-          
+
+                <div class="botao"> <i class="far fa-circle"></i> </div>
+                <div class="botao"> <i class="far fa-circle"></i> </div>
+                <div class="botao"> <i class="far fa-circle"></i> </div>
+                <div class="botao"> <i class="far fa-circle"></i> </div>
+                <div class="botao"> <i class="far fa-circle"></i> </div>
+
             </div>
-          
-          </section><!--slider-->
+
+        </section><!--slider-->
+
+
     </main>
 
+    <section class="container-2" >
+        <section class="formulario">
+            <h2>Entre em contato</h2>
+            <form action="https://formspree.io/f/xwkgqgew" method="post">
+                <input type="hidden" name="_replyto" value="comissaodefestasbicolor@gmail.com">
+                <input type="hidden" name="_subject" value="Novo contato do site">
+                <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </section>
+        <aside class="proximo-jogo">
+            <h2>PRÓXIMO JOGO</h2>
+            <div class="prox">
+                <img src="../img/times/paysandu.png" alt="simbolo do time mandante" class="time1">
+                <h3>X
+                </h3>
+                <img src="../img/times/bragantino-pa.png" alt="simbolo do time visitante" class="time2">
+            </div>
+            <div class="nick-team">
+                <h3>Paysandu</h3>
+                <h3>Bragantino</h3>
+            </div>
+            <div class="evento">
+                <h3>CAMPEONATO PARAENSE 2024</h3>
+                <h4>Data: 16/03 - Domingo</h4>
+                <h4>Horário: 16:00</h4>
+                <h5>Local: Banpará Curuzu</h5>
+            </div>
+        </aside>
+    </section>
     <footer>
-        <p>&copy; 2024 Comissão de Festas Bicolor. Todos os direitos reservados. Desenvolvido por <a href="http://www.linkedin.com/in/geovanilobo">Geovani Lobo</a>.</p>
+        <p>&copy; 2024 Comissão de Festas Bicolor. Todos os direitos reservados. Desenvolvido por <a
+                href="http://www.linkedin.com/in/geovanilobo">Geovani Lobo</a>.</p>
     </footer>
-    
-    
+
+
 </body>
 
 <script src="script.js"></script>
+
 </html>

@@ -149,18 +149,138 @@ a:hover {
     to {
       opacity: 1;
     }
+
+    
+
   }
+
+  .container-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+
+  form {
+    width: 700px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+  .proximo-jogo{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 350px;
+    background-color: #e2e2e2;
+    margin: 20px 20px 20px 0;
+    border: #979696 2px solid;
+    border-radius: 10px;
+  }
+
+  .proximo-jogo h2{
+    text-align: center;
+    color: var(--color1);
+    background-color: #c4c8ed;
+
+    
+  }
+  .prox{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .time1{
+    width: 50px;
+    height: 50px;
+  }
+
+  
+  .time2{
+    width: 50px;
+    height: 50px;
+  }
+
+  .nick-team{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+  }
+
+  .nick-team h3{
+    font-size: 1rem;
+  }
+
+.evento{
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.evento h3{
+  font-size: .8rem;
+  margin: 5px;
+}
+
 footer{
     background-color: var(--color1);
+    clear: both;
     text-decoration: none;
-    bottom: 0;
-    position: fixed;
     width: 100vw;
     height: 5vh;
     font-weight: 400;
     color: var(--color2);
     text-align: center;
     padding: 15px;
+    margin-top: 10px;
 
 }
 
