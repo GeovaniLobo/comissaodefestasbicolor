@@ -108,3 +108,76 @@ cursor: pointer;
 footer a{
   font-size: 18px;
 }
+
+@media (max-width: 1428px){
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 375px){
+  .conteudo img{
+    width: 350px;
+  }
+
+  ul{
+    gap: 15px;
+  }
+}
+
+@media (max-width: 414px){
+  .conteudo img{
+    width: 395px;
+  }
+
+  ul{
+    gap: 17px;
+  }
+}
+
+@media (max-width: 390px){
+  .conteudo img{
+    width: 350px;
+  }
+
+  ul{
+    gap: 17px;
+  }
+}
+
+@media (max-width: 430px){
+  .conteudo img{
+    width: 400px;
+  }
+
+  ul{
+    gap: 17px;
+  }
+}
+
+@media (max-width: 360px){
+  .conteudo img{
+    width: 330px;
+  }
+
+  ul{
+    gap: 17px;
+  }
+}
+
+@media (max-width: 280px){
+  .conteudo img{
+    width: 240px;
+  }
+
+  ul{
+    gap: 10px;
+    
+  }
+
+  ul li a {
+    font-size: 15px;
+  }
+}
