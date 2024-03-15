@@ -1,0 +1,100 @@
+:root{
+    --color1: #007FFF;
+    --color2: #ffffff;
+    --color3: #2a3ae3;
+  }
+  
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  
+  header {
+    background-color: var(--color1);
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    padding: 20px;
+  }
+  
+  nav {
+    align-items: center;
+  }
+  .selected a {
+  
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  color: var(--color1); /* Altere para a cor azul desejada */
+  padding: 10px 20px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: center;
+  }
+  
+  li {
+    align-items: center;
+  }
+  
+  a {
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color2);
+    transition: color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+  }
+  
+  /* Adiciona a cor de fundo quando o mouse está sobre o link */
+  a:hover {
+    color: var(--color3); /* Define a cor que deseja que o texto tenha ao passar o mouse */
+  }
+section{
+  width: 80%;
+  margin: 0 auto;
+  column-count: 4;
+  column-gap: 10px;
+  
+
+
+}
+  section img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: transform 1s ease;
+  }
+  section img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  footer{
+    background-color: var(--color1);
+    clear: both;
+    text-decoration: none;
+    width: 100vw;
+    font-weight: 400;
+    color: var(--color2);
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+  
+  }
+  
+  .logo-footer{
+  width: 80px;
+  cursor: pointer;
+  }
+  
+  footer a{
+    font-size: 18px;
+  }
+  
