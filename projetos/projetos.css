@@ -147,13 +147,23 @@ footer a{
   }
 }
 
+@media (max-width: 395px){
+  .conteudo img{
+    max-width: 320px;
+  }
+
+  ul{
+    gap: 17px;
+  }
+}
+
 @media (max-width: 430px){
   .conteudo img{
     width: 400px;
   }
 
   ul{
-    gap: 17px;
+    gap: 10px;
   }
 }
 

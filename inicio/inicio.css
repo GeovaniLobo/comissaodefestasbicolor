@@ -464,3 +464,25 @@ width: 400px;
     gap: 20px;
   }
 }
+
+@media (max-width: 395px){
+
+  body{
+    width: 100vw;
+  }
+
+  ul li a{
+    font-size: 13px;
+  }
+  form{
+    width: 250px;
+    margin: 10px auto;
+  }
+  .proximo-jogo{
+    width: 250px;
+    margin: 10px auto;
+  }
+  ul{
+    gap: 20px;
+  }
+}
